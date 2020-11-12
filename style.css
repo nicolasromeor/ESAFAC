@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  margin: 0px;
+}
+nav {
+  margin-top: 0px;
+  padding: 20px;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#nav-1 {
+  text-align: center;
+  background: #3fa46a;
+}
+#nav-3 {
+  text-align: center;
+  background: #E57D22;
+}
+
+.text {
+  transition: 0.3s ease;
+  background: #3fa46a;
+  color: #ffffff;
+  font-size: 20px;
+  border-top: 2px solid #3fa46a;
+  border-bottom: -1px solid #3fa46a;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.link-3 {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.link-3:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
+}
+
+
+
+--------------------------------------
+
+body {
+  background: rgba(94,190,235,1);
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+p {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.flex-caption {
+  position: relative;
+  background: #fff;
+  color: #333;
+  max-width: 310px;
+  display: table;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.flex-caption p {
+  color: #777;
+}
+
+li.css a {
+      border-radius: 0;
+}
+
+.flex-viewport {
+  max-height: 450px;
+  max-width: 800px;
+}
+
+section.slider {
+  width: 800px;
+  margin: 5% auto;
+}
+
+.flexslider .slides img {
+  height: auto;
+  max-width: 490px;
+  border-radius: 4px 0px 0px 4px;
+  float: left;
+}
+
+.flexslider {
+  border: 0px solid #ffffff;
+  box-shadow: 0 1px 30px rgba(0,0,0,.4);
+  transition: 400ms ease;
+}
+
+span.date {
+  font-size: 11px;
+}
+
+.flex-control-paging li a {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.flex-control-paging li a:hover {
+  background: #4183D7;
+}
+
+.flex-control-paging li a.flex-active {
+  background: #4183D7;
+}
+
+.flex-control-nav {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.flexslider .slides > li {
+  position: relative;
+}
+
+.card-outmore {
+  padding: 10px 30px 10px 30px;
+  border-radius: 0px 0px 4px 0px;
+  border-top: 1px solid #e0e0e0;
+  background: #efefef;
+  color: #222;
+  display: inline-table;
+  width: 100%;
+  max-width: 310px;
+  transition: 400ms ease;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+.card-outmore h5 {
+  float: left;
+  margin: 0px;
+}
+.card-outmore i {
+  float: right;
+}
+#outmore-icon {
+  border:1px solid ;
+  padding: 1px 6px;
+  border-radius: 50em;
+}
+
+.flex-direction-nav a:before {
+  font-family: "FontAwesome";
+  font-size: 38px;
+  display: inline-block;
+  content: '\f104';
+  color: #fff;
+}
+
+.flex-direction-nav a.flex-next:before {
+  content: '\f105';
+  color: #333;
+}
+
+a:hover .card-outmore {
+  background: #2C3E50;
+  color: #fff;
+}
+
+a:hover .flexslider {
+  box-shadow: 0 10px 50px rgba(0,0,0,.6);
+}
+
+----------------------------------------
+record_wrap {
+  width:90%;
+  margin:100px auto;
+  display:flex;
+  justify-content:space-between;
+}
+
+.record {
+  position:relative;
+  width:100%;
+  height:40vw;
+  overflow:hidden;
+  // border:2px solid #ccc;
+  @include shadow(1);
+  background-color:#fff;
+  cursor:pointer;
+  transition: box-shadow 300ms;
+  &:hover {
+    @include shadow(2);
+  }
+}
+
+.record-arrow {
+  position:absolute;
+  padding:3%;
+  img {
+    width:8%;
+    height:8%;
+  }
+
+}
+.record:hover .record-display {
+  height:20%;
+  @include shadow(1);
+}
+
+.record-desc {
+  margin:20px 0 0 10px;
+  h1 {
+    margin:5px 0;
+    font-size:1.3em;
+    font-weight:700;
+  }
+  p {
+    font-size:0.75em;
+    line-height:1.4em;
+    color:#666;
+  }
+  opacity:0;
+  transition: opacity 400ms ease-in-out 190ms ;
+}
+
+#record1 {
+  transition:height 700ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+}
+
+.record:hover .record-desc {
+  opacity:1;
+}
+
+
+.background-footer{
+  background: #3fa46a;
+  height: 150px;
+  max-width: ;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 80px;
+}
+.social-icon{
+  margin: 20px;
+  text-align: center;
+  
+
+}
+.mapa{
+ 
+}

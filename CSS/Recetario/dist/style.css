@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  margin: 0px;
+}
+nav {
+  margin-top: 0px;
+  padding: 20px;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#nav-1 {
+  text-align: center;
+  background: #3fa46a;
+}
+#nav-3 {
+  text-align: center;
+  background: #E57D22;
+}
+
+.text {
+  transition: 0.3s ease;
+  background: #3fa46a;
+  color: #ffffff;
+  font-size: 20px;
+  border-top: 4px solid #3fa46a;
+  border-bottom: 4px solid #3fa46a;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.link-3 {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.link-3:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
+}
+
+
+-----------------------------------------------
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Raleway";
+  color: #333333;
+  font-weight: 600;
+}
+
+h2{
+  position: relative;
+}
+
+h2:after{
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: #333;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -30px;
+}
+
+.seccion{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 16px;
+  line-height: 1.7em;
+  color: #767676;
+  
+}
+
+.seccion-restaurantes{
+  background-blend-mode: darken;
+  background-image: url(http://arteysolera.rubenvillar.net/wp-content/uploads/2018/06/el_espacio.jpg);
+  background-color: rgba(37, 37, 37, 0.94);
+  background-size: cover;
+}
+.nuestros-restaurantes{
+  color: #fff;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.nuestros-restaurantes:after{
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -30px;
+}
+
+.tarjeta {
+  margin-bottom: 60px;
+}
+
+.imagen {
+  position: relative;
+  line-height: 0;
+}
+.imagen:before {
+  content: "SEVILLA";
+  position: absolute;
+  background: #ffa114;
+  padding: 15px 20px;
+  color: #fff;
+  top: -10px;
+  left: -10px;
+}
+
+.imagen-cuenca:before {
+  content: "CUENCA";
+}
+
+img {
+  width: 100%;
+}
+
+.texto {
+  background-color: #fff;
+  padding: 60px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 1.7em;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+iframe{
+  width: 100%;
+  height: 300px;
+}
+.boton {
+  display: inline-block;
+  width: 100%;
+}
+
+.boton-info {
+  background-color: #333333;
+}
+
+.boton-reserva {
+  background-color: #595959;
+}
+
+.btn {
+  font-family: "Raleway";
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  transition: all 0.5s linear;
+  background-image: linear-gradient(#ffa114, #ffa114);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 0;
+}
+
+.btn:hover {
+  background-size: 100% 100%;
+  transition: all 0.5s cubic-bezier(0, 0, 0.23, 1);
+  color: #fff;
+}
+
+
+
+@media (max-width: 992px) {
+  .btn{
+    font-size: 16px;
+  }
+}

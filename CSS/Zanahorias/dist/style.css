@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  margin: 0px;
+}
+nav {
+  margin-top: 0px;
+  padding: 24px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#nav-1 {
+  background: #3fa46a;
+}
+#nav-3 {
+  background: #E57D22;
+}
+
+.text {
+  transition: 0.3s ease;
+  background: #3fa46a;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #3fa46a;
+  border-bottom: 4px solid #3fa46a;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+
+.link-2 {
+  transition: 0.6s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-right: 2px dotted transparent;
+  padding: 30px 8px 0 10px;
+  margin: 0 10px;
+}
+.link-2:hover {
+  border-right: 2px dotted #ffffff;
+  padding-bottom: 24px;
+}
+.link-3 {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.link-3:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
+}
+
+----------------------------------------------------
+
+.bg-image {
+  background-image: url(https://unsplash.it/1500/750?image=1041);
+  background-size: cover;
+  height: 300px;
+  clip-path: polygon(0 0, 100% 0, 100% 94%, 53% 94%, 50% 100%, 47% 94%, 0 94%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 53% 94%, 50% 100%, 47% 94%, 0 94%);
+  margin-bottom: -3%;
+}
+
+/**
+ * This example uses a background gradient
+ */
+.bg-gradient {
+  background-image: linear-gradient(to bottom right, red, blue);
+  background-size: cover;
+  height: 300px;
+  clip-path: polygon(0 0, 100% 0, 100% 94%, 53% 94%, 50% 100%, 47% 94%, 0 94%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 53% 94%, 50% 100%, 47% 94%, 0 94%);
+  margin-bottom: -3%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  font-family: arial, sans-serif;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.content {
+  text-align: center;
+  background: #EEB77D;
+  padding: 40px;
+}
